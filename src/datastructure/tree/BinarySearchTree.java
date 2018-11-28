@@ -263,28 +263,4 @@ public class BinarySearchTree<T extends Comparable> {
         }
 
     }
-
-    public static void main(String[] args) {
-        BinarySearchTree<Integer> binarySearchTree=new BinarySearchTree(new BinarySearchTreeNode(11,null,null));
-        binarySearchTree.insert(2);
-        binarySearchTree.insert(1);
-        binarySearchTree.insert(3);
-        binarySearchTree.insert(0);
-        binarySearchTree.insert(17);
-        binarySearchTree.insert(14);
-        binarySearchTree.insert(12);
-        binarySearchTree.insert(15);
-        binarySearchTree.insert(31);
-        binarySearchTree.insert(16);
-        binarySearchTree.insert(42);
-        binarySearchTree.inOrderTraversal();
-        binarySearchTree.remove(0);
-        binarySearchTree.inOrderTraversal();
-        binarySearchTree.remove(14);
-        binarySearchTree.inOrderTraversal();
-        binarySearchTree.insert(22);
-        binarySearchTree.inOrderTraversal();
-        binarySearchTree.remove(17);
-        binarySearchTree.inOrderTraversal();
-    }
 }
